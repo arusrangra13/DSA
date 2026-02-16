@@ -5,6 +5,7 @@ public class Functions{
       //loop
       if(n<0){
         System.out.println("invalid no");
+        return;
       }
       int factorial = 1;
       for(int i=n;i>=1;i--){
